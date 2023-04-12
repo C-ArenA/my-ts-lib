@@ -1,6 +1,7 @@
 {
-  "name": "@c-arena/my-ts-lib",
-  "version": "0.0.0",
+  "name": "@arenamovediza/my-ts-lib",
+  
+  "version": "0.0.1",
   "description": "Basic Geometry Calculations | This library is useless",
   "author": "Carlos Arena",
   "license": "MIT",
@@ -24,8 +25,13 @@
     }
   },
   "files": [
+	"README.md",
+	"LICENSE",
     "dist"
   ],
+  "publishConfig": {
+	"access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
